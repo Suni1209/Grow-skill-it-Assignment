@@ -1,0 +1,98 @@
+                                              ASSIGNMENT3 -DATATYPES
+
+Problem 1: Student Marks Conversion System
+
+Problem Statement:
+A student scored 87.6 marks in an exam (stored in a float). Perform the following operations:
+
+Convert the float marks into:
+double
+int
+Print all three values.
+Convert the final integer value into a character using ASCII and print it.
+
+Expected Learning:
+
+Float â†’ Double (Upcasting)
+Double â†’ Int (Downcasting)
+Int â†’ Char (ASCII conversion)
+
+Sample Output:
+
+Float value: 87.6  
+Double value: 87.6  
+Integer value: 87  
+Character value: W
+
+Answer: 
+public class StudentMarksConversion {
+
+    public static void main(String[] args) {
+
+        float marks = 87.6f;
+
+        double doubleMarks =floatMarks;
+
+        int intMarks = (int) doubleMarks;
+
+        char characterValue = (char) intMarks;
+
+        System.out.println("Float value: " + marks);
+        System.out.println("Double value: " + doubleMarks);
+        System.out.println("Integer value: " + intMarks);
+        System.out.println("Character value: " + characterValue);
+
+    }
+}
+
+
+2.Problem Statement:
+Write a Java program that:
+
+Takes a character input from the user (e.g., 'A').
+Finds and prints its ASCII value.
+Adds 5 to the ASCII value.
+Converts the new value back to a character and prints it.
+
+Expected Learning:
+
+Char â†’ Int conversion (ASCII)
+Arithmetic operations on ASCII values
+Int â†’ Char typecasting
+
+Sample Input:
+
+Enter character: A
+
+Sample Output:
+
+ASCII value: 65  
+New ASCII value: 70  
+New character: F
+
+Answer:package day1;
+import java.util.Scanner;
+public class Program4ASCII {
+	public static void main(String[] args) {
+     	
+    
+       
+	Scanner scanner = new Scanner(System.in);	
+ 	
+       System.out.print("Enter charater: ");
+       char inputChar = scanner.next().charAt(0);
+       int asciiValue =(int) inputChar;
+       System.out.println("ASCII value: "+asciiValue);
+       
+       int newAsciiValue = asciiValue + 5;
+       System.out.println("New ASCII value:" +newAsciiValue);
+       
+       char newChar =(char) newAsciiValue;
+       System.out.println("New charater: " + newChar);
+       
+       scanner.close();
+
+    }
+}
+
+	`
