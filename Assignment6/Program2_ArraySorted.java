@@ -1,4 +1,4 @@
-package Assignment6;
+package assignment6;
 
 public class Program2_ArraySorted {		
 		   public static boolean isSorted(int arr[]) 

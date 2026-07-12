@@ -38,6 +38,8 @@ public class Program_Filter {
 				.toList();
 		System.out.println("Product whose price is greater than 1000");
 		result.forEach(System.out::println);
+		
+		
 				
 		
 		

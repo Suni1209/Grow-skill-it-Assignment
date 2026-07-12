@@ -1,4 +1,4 @@
-package Assignment6;
+package assignment6;
 
 public class Program3_MoveZeros {
 		    public static void moveZeros(int arr[]) {

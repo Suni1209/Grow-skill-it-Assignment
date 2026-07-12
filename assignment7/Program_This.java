@@ -33,5 +33,5 @@ package assignment7;
 	    public static void main(String[] args) {
 	        Student s = new Student(21, "Suni", 85);
 	        s.printData();
-	    }
+	        }
 	}
